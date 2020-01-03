@@ -285,17 +285,18 @@ GTEST_API_ void Log(LogSeverity severity, const std::string& message,
 //
 //    ON_CALL(mock, Method({}, nullptr))...
 //
-class WithoutMatchers {
- private:
-  WithoutMatchers() {}
-  friend GTEST_API_ WithoutMatchers GetWithoutMatchers();
-};
+        class WithoutMatchers {
+        private:
+            WithoutMatchers() {}
+
+            friend GTEST_API_ WithoutMatchers GetWithoutMatchers();
+        };
 
 // Internal use only: access the singleton instance of WithoutMatchers.
-GTEST_API_ WithoutMatchers GetWithoutMatchers();
+        GTEST_API_ WithoutMatchers GetWithoutMatchers();
 
-// Disable MSVC warnings for infinite recursion, since in this case the
-// the recursion is unreachable.
+// Disable MSVC warnings for infinite c5_recursion, since in this case the
+// the c5_recursion is unreachable.
 #ifdef _MSC_VER
 # pragma warning(push)
 # pragma warning(disable:4717)

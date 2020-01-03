@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -83,22 +83,367 @@ CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.s
 
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o: ../src/udemy_cpp_course/oop_c4/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o: ../src/udemy_cpp_course/loops/loops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/loops/loops.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/loops/loops.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/loops/loops.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o: ../src/udemy_cpp_course/types/reference_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/types/reference_types.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/types/reference_types.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/types/reference_types.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o: ../src/udemy_cpp_course/functions/parameter_passing_methods.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o: ../src/udemy_cpp_course/fundamentals/return_multiple_values.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o: ../src/udemy_cpp_course/functions/static_variables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o: ../src/udemy_cpp_course/oop_c4/Complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o: ../src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o: ../src/udemy_cpp_course/oop_c4/student/StudentTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o: ../src/udemy_cpp_course/oop_c4/student/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o: ../src/udemy_cpp_course/oop_c4/rational/Rational.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o: ../src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o: ../src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o: ../src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o: ../src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o: ../src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o: ../src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o: ../src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o: ../src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o: ../src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp > CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp -o CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o: ../src/algorithms_udemy/c5_recursion/recursive_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp > CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o: ../src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp > CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o: ../src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o   -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c > CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
+
 # Object files for target cpp_fundamentals
 cpp_fundamentals_OBJECTS = \
 "CMakeFiles/cpp_fundamentals.dir/main.cpp.o" \
-"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.o"
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o"
 
 # External object files for target cpp_fundamentals
 cpp_fundamentals_EXTERNAL_OBJECTS =
 
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/main.cpp.o
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/build.make
 cpp_fundamentals: lib/libgtestd.a
 cpp_fundamentals: lib/libgtest_maind.a
 cpp_fundamentals: lib/libgtestd.a
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp_fundamentals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable cpp_fundamentals"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_fundamentals.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

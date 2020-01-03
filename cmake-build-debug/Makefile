@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,25 +59,25 @@ CMAKE_BINARY_DIR = /Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-deb
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -104,7 +104,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -115,19 +115,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/ctest" --force-new-ctest-process $(ARGS)
+	"/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/ctest" --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -259,6 +259,141 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/algorithms_udemy/c5_recursion/recursive_functions.o: src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
+
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.o
+
+# target to build an object file
+src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
+
+src/algorithms_udemy/c5_recursion/recursive_functions.i: src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i
+
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.i
+
+# target to preprocess a source file
+src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.cpp.i
+
+src/algorithms_udemy/c5_recursion/recursive_functions.s: src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s
+
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.s
+
+# target to generate assembly for a file
+src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s
+.PHONY : src/algorithms_udemy/c5_recursion/recursive_functions.cpp.s
+
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.o: src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.o
+
+# target to build an object file
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o
+
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.i: src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.i
+
+# target to preprocess a source file
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.i
+
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.s: src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.s
+
+# target to generate assembly for a file
+src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
+.PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
+
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.o: src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
+
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.o
+
+# target to build an object file
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
+
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.i: src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i
+
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.i
+
+# target to preprocess a source file
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.i
+
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.s: src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s
+
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.s
+
+# target to generate assembly for a file
+src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s
+.PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.s
+
+src/udemy_cpp_course/functions/parameter_passing_methods.o: src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o
+
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.o
+
+# target to build an object file
+src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o
+
+src/udemy_cpp_course/functions/parameter_passing_methods.i: src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i
+
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.cpp.i
+
+src/udemy_cpp_course/functions/parameter_passing_methods.s: src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s
+
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s
+.PHONY : src/udemy_cpp_course/functions/parameter_passing_methods.cpp.s
+
+src/udemy_cpp_course/functions/static_variables.o: src/udemy_cpp_course/functions/static_variables.cpp.o
+
+.PHONY : src/udemy_cpp_course/functions/static_variables.o
+
+# target to build an object file
+src/udemy_cpp_course/functions/static_variables.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o
+.PHONY : src/udemy_cpp_course/functions/static_variables.cpp.o
+
+src/udemy_cpp_course/functions/static_variables.i: src/udemy_cpp_course/functions/static_variables.cpp.i
+
+.PHONY : src/udemy_cpp_course/functions/static_variables.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/functions/static_variables.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.i
+.PHONY : src/udemy_cpp_course/functions/static_variables.cpp.i
+
+src/udemy_cpp_course/functions/static_variables.s: src/udemy_cpp_course/functions/static_variables.cpp.s
+
+.PHONY : src/udemy_cpp_course/functions/static_variables.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/functions/static_variables.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.s
+.PHONY : src/udemy_cpp_course/functions/static_variables.cpp.s
+
 src/udemy_cpp_course/fundamentals/operators.o: src/udemy_cpp_course/fundamentals/operators.cpp.o
 
 .PHONY : src/udemy_cpp_course/fundamentals/operators.o
@@ -286,6 +421,492 @@ src/udemy_cpp_course/fundamentals/operators.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.s
 .PHONY : src/udemy_cpp_course/fundamentals/operators.cpp.s
 
+src/udemy_cpp_course/fundamentals/return_multiple_values.o: src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o
+
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.o
+
+# target to build an object file
+src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o
+
+src/udemy_cpp_course/fundamentals/return_multiple_values.i: src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i
+
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.i
+
+src/udemy_cpp_course/fundamentals/return_multiple_values.s: src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s
+
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s
+.PHONY : src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.s
+
+src/udemy_cpp_course/loops/loops.o: src/udemy_cpp_course/loops/loops.cpp.o
+
+.PHONY : src/udemy_cpp_course/loops/loops.o
+
+# target to build an object file
+src/udemy_cpp_course/loops/loops.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o
+.PHONY : src/udemy_cpp_course/loops/loops.cpp.o
+
+src/udemy_cpp_course/loops/loops.i: src/udemy_cpp_course/loops/loops.cpp.i
+
+.PHONY : src/udemy_cpp_course/loops/loops.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/loops/loops.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.i
+.PHONY : src/udemy_cpp_course/loops/loops.cpp.i
+
+src/udemy_cpp_course/loops/loops.s: src/udemy_cpp_course/loops/loops.cpp.s
+
+.PHONY : src/udemy_cpp_course/loops/loops.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/loops/loops.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.s
+.PHONY : src/udemy_cpp_course/loops/loops.cpp.s
+
+src/udemy_cpp_course/oop_c4/Complex.o: src/udemy_cpp_course/oop_c4/Complex.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/Complex.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.cpp.o
+
+src/udemy_cpp_course/oop_c4/Complex.i: src/udemy_cpp_course/oop_c4/Complex.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/Complex.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.cpp.i
+
+src/udemy_cpp_course/oop_c4/Complex.s: src/udemy_cpp_course/oop_c4/Complex.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/Complex.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/Complex.cpp.s
+
+src/udemy_cpp_course/oop_c4/Rectangle.o: src/udemy_cpp_course/oop_c4/Rectangle.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/Rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.cpp.o
+
+src/udemy_cpp_course/oop_c4/Rectangle.i: src/udemy_cpp_course/oop_c4/Rectangle.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.cpp.i
+
+src/udemy_cpp_course/oop_c4/Rectangle.s: src/udemy_cpp_course/oop_c4/Rectangle.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/Rectangle.cpp.s
+
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.o: src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o
+
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.i: src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.i
+
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.s: src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.s
+
+src/udemy_cpp_course/oop_c4/deep_copy_construction.o: src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o
+
+src/udemy_cpp_course/oop_c4/deep_copy_construction.i: src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.i
+
+src/udemy_cpp_course/oop_c4/deep_copy_construction.s: src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.s
+
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.o: src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o
+
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.i: src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.i
+
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.s: src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.s
+
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.o: src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o
+
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.i: src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.i
+
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.s: src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.s
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.o: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.i: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.i
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.s: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.s
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.o: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.i: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.i
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.s: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.s
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.o: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.i: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.i
+
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.s: src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.s
+
+src/udemy_cpp_course/oop_c4/rational/Rational.o: src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o
+
+src/udemy_cpp_course/oop_c4/rational/Rational.i: src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.cpp.i
+
+src/udemy_cpp_course/oop_c4/rational/Rational.s: src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/rational/Rational.cpp.s
+
+src/udemy_cpp_course/oop_c4/rational/RationalTest.o: src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o
+
+src/udemy_cpp_course/oop_c4/rational/RationalTest.i: src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.i
+
+src/udemy_cpp_course/oop_c4/rational/RationalTest.s: src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.s
+
+src/udemy_cpp_course/oop_c4/student/Student.o: src/udemy_cpp_course/oop_c4/student/Student.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/student/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.cpp.o
+
+src/udemy_cpp_course/oop_c4/student/Student.i: src/udemy_cpp_course/oop_c4/student/Student.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/student/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.cpp.i
+
+src/udemy_cpp_course/oop_c4/student/Student.s: src/udemy_cpp_course/oop_c4/student/Student.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/student/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/student/Student.cpp.s
+
+src/udemy_cpp_course/oop_c4/student/StudentTest.o: src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.o
+
+# target to build an object file
+src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o
+
+src/udemy_cpp_course/oop_c4/student/StudentTest.i: src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.i
+
+src/udemy_cpp_course/oop_c4/student/StudentTest.s: src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s
+
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s
+.PHONY : src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.s
+
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.o: src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.o
+
+# target to build an object file
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o
+
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.i: src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.i
+
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.s: src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.s
+
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.o: src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.o
+
+# target to build an object file
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o
+
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.i: src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.i
+
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.s: src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s
+
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s
+.PHONY : src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.s
+
+src/udemy_cpp_course/types/reference_types.o: src/udemy_cpp_course/types/reference_types.cpp.o
+
+.PHONY : src/udemy_cpp_course/types/reference_types.o
+
+# target to build an object file
+src/udemy_cpp_course/types/reference_types.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o
+.PHONY : src/udemy_cpp_course/types/reference_types.cpp.o
+
+src/udemy_cpp_course/types/reference_types.i: src/udemy_cpp_course/types/reference_types.cpp.i
+
+.PHONY : src/udemy_cpp_course/types/reference_types.i
+
+# target to preprocess a source file
+src/udemy_cpp_course/types/reference_types.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.i
+.PHONY : src/udemy_cpp_course/types/reference_types.cpp.i
+
+src/udemy_cpp_course/types/reference_types.s: src/udemy_cpp_course/types/reference_types.cpp.s
+
+.PHONY : src/udemy_cpp_course/types/reference_types.s
+
+# target to generate assembly for a file
+src/udemy_cpp_course/types/reference_types.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.s
+.PHONY : src/udemy_cpp_course/types/reference_types.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -307,9 +928,78 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/algorithms_udemy/c5_recursion/recursive_functions.o"
+	@echo "... src/algorithms_udemy/c5_recursion/recursive_functions.i"
+	@echo "... src/algorithms_udemy/c5_recursion/recursive_functions.s"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.o"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.i"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.s"
+	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.o"
+	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.i"
+	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.s"
+	@echo "... src/udemy_cpp_course/functions/parameter_passing_methods.o"
+	@echo "... src/udemy_cpp_course/functions/parameter_passing_methods.i"
+	@echo "... src/udemy_cpp_course/functions/parameter_passing_methods.s"
+	@echo "... src/udemy_cpp_course/functions/static_variables.o"
+	@echo "... src/udemy_cpp_course/functions/static_variables.i"
+	@echo "... src/udemy_cpp_course/functions/static_variables.s"
 	@echo "... src/udemy_cpp_course/fundamentals/operators.o"
 	@echo "... src/udemy_cpp_course/fundamentals/operators.i"
 	@echo "... src/udemy_cpp_course/fundamentals/operators.s"
+	@echo "... src/udemy_cpp_course/fundamentals/return_multiple_values.o"
+	@echo "... src/udemy_cpp_course/fundamentals/return_multiple_values.i"
+	@echo "... src/udemy_cpp_course/fundamentals/return_multiple_values.s"
+	@echo "... src/udemy_cpp_course/loops/loops.o"
+	@echo "... src/udemy_cpp_course/loops/loops.i"
+	@echo "... src/udemy_cpp_course/loops/loops.s"
+	@echo "... src/udemy_cpp_course/oop_c4/Complex.o"
+	@echo "... src/udemy_cpp_course/oop_c4/Complex.i"
+	@echo "... src/udemy_cpp_course/oop_c4/Complex.s"
+	@echo "... src/udemy_cpp_course/oop_c4/Rectangle.o"
+	@echo "... src/udemy_cpp_course/oop_c4/Rectangle.i"
+	@echo "... src/udemy_cpp_course/oop_c4/Rectangle.s"
+	@echo "... src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.o"
+	@echo "... src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.i"
+	@echo "... src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.s"
+	@echo "... src/udemy_cpp_course/oop_c4/deep_copy_construction.o"
+	@echo "... src/udemy_cpp_course/oop_c4/deep_copy_construction.i"
+	@echo "... src/udemy_cpp_course/oop_c4/deep_copy_construction.s"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/Cuboid.o"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/Cuboid.i"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/Cuboid.s"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.o"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.i"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.s"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.o"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.i"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.s"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.o"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.i"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.s"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.o"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.i"
+	@echo "... src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.s"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/Rational.o"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/Rational.i"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/Rational.s"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/RationalTest.o"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/RationalTest.i"
+	@echo "... src/udemy_cpp_course/oop_c4/rational/RationalTest.s"
+	@echo "... src/udemy_cpp_course/oop_c4/student/Student.o"
+	@echo "... src/udemy_cpp_course/oop_c4/student/Student.i"
+	@echo "... src/udemy_cpp_course/oop_c4/student/Student.s"
+	@echo "... src/udemy_cpp_course/oop_c4/student/StudentTest.o"
+	@echo "... src/udemy_cpp_course/oop_c4/student/StudentTest.i"
+	@echo "... src/udemy_cpp_course/oop_c4/student/StudentTest.s"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.o"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.i"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.s"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.o"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.i"
+	@echo "... src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.s"
+	@echo "... src/udemy_cpp_course/types/reference_types.o"
+	@echo "... src/udemy_cpp_course/types/reference_types.i"
+	@echo "... src/udemy_cpp_course/types/reference_types.s"
 .PHONY : help
 
 

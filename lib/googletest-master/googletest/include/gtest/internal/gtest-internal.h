@@ -728,7 +728,7 @@ class TypeParameterizedTest {
   }
 };
 
-// The base case for the compile time recursion.
+// The base case for the compile time c5_recursion.
 template <GTEST_TEMPLATE_ Fixture, class TestSel>
 class TypeParameterizedTest<Fixture, TestSel, internal::None> {
  public:
@@ -780,7 +780,7 @@ class TypeParameterizedTestSuite {
   }
 };
 
-// The base case for the compile time recursion.
+// The base case for the compile time c5_recursion.
 template <GTEST_TEMPLATE_ Fixture, typename Types>
 class TypeParameterizedTestSuite<Fixture, internal::None, Types> {
  public:

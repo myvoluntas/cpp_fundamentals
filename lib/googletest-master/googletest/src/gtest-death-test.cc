@@ -1277,7 +1277,7 @@ static int ExecDeathTestChildMain(void* child_arg) {
 // grows.
 // This could be accomplished more elegantly by a single recursive
 // function, but we want to guard against the unlikely possibility of
-// a smart compiler optimizing the recursion away.
+// a smart compiler optimizing the c5_recursion away.
 //
 // GTEST_NO_INLINE_ is required to prevent GCC 4.6 from inlining
 // StackLowerThanAddress into StackGrowsDown, which then doesn't give

@@ -345,10 +345,106 @@
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/main.cpp">
 			<Option target="cpp_fundamentals"/>
 		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.cpp">
 			<Option target="cpp_fundamentals"/>
 		</Unit>
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/loops/loops.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.h">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/types/reference_types.cpp">
 			<Option target="cpp_fundamentals"/>
 		</Unit>
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/CMakeLists.txt">

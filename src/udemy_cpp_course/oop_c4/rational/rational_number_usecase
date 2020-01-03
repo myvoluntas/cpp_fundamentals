@@ -1,0 +1,9 @@
+- Can create instance of Rational
+    - Can instantiate Rational with plain values
+    - Can instantiate Rational with Rational Object
+- Can get and set numerator and denominator
+- can add with other Rational object
+- can print numerator / denominator
+
+
+

@@ -310,7 +310,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.cpp
+/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp
 gtest/gtest.h
+-
+stdio.h
+-
+stdlib.h
 -
 

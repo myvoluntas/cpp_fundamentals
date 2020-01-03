@@ -1,0 +1,4 @@
+- Can create instantiate Student
+- Can store roll (MNr), name, mathMarks, phyMarks, chemMarks
+- Can calculate and return total of Marks - sum
+- Can calculate and return grade A (total / 3 = greater 60), B (avg between 40 and 60), C (Rest)

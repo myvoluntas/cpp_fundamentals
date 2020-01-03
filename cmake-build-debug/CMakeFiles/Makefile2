@@ -35,10 +35,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/h.gbr/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,12 +77,12 @@ CMakeFiles/cpp_fundamentals.dir/all: lib/googletest-master/googletest/CMakeFiles
 CMakeFiles/cpp_fundamentals.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/depend
 	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cpp_fundamentals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target cpp_fundamentals"
 .PHONY : CMakeFiles/cpp_fundamentals.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_fundamentals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_fundamentals.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cpp_fundamentals.dir/rule
@@ -144,7 +144,7 @@ lib/googletest-master/googlemock/preinstall: lib/googletest-master/googletest/pr
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target gmock"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,7 +172,7 @@ lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-m
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target gmock_main"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -219,7 +219,7 @@ lib/googletest-master/googletest/preinstall:
 lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target gtest_main"
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +246,7 @@ lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/clean:
 lib/googletest-master/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target gtest"
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

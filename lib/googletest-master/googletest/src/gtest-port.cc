@@ -926,8 +926,8 @@ bool MatchRegexAtHead(const char* regex, const char* str) {
     ++regex;
   if (IsRepeat(regex[1])) {
     // MatchRepetitionAndRegexAtHead() calls MatchRegexAtHead(), so
-    // here's an indirect recursion.  It terminates as the regex gets
-    // shorter in each recursion.
+    // here's an indirect c5_recursion.  It terminates as the regex gets
+    // shorter in each c5_recursion.
     return MatchRepetitionAndRegexAtHead(
         escaped, regex[0], regex[1], regex + 2, str);
   } else {
@@ -942,7 +942,7 @@ bool MatchRegexAtHead(const char* regex, const char* str) {
 // Returns true if and only if regex matches any substring of str.  regex must
 // be a valid simple regular expression, or the result is undefined.
 //
-// The algorithm is recursive, but the recursion depth doesn't exceed
+// The algorithm is recursive, but the c5_recursion depth doesn't exceed
 // the regex length, so we won't need to worry about running out of
 // stack space normally.  In rare cases the time complexity can be
 // exponential with respect to the regex length + the string length,

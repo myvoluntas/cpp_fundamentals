@@ -24,6 +24,94 @@ CMakeFiles/cpp_fundamentals.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /Users/h.gbr/Documents/clion/cpp_fundamentals/main.cpp
  /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.h
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp
 CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.o
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -46,3 +134,236 @@ CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/operators.cpp.
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/operators.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/fundamentals/return_multiple_values.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/loops/loops.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/loops/loops.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Complex.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Complex.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/Rectangle.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/deep_copy_construction.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/Rectangle.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/Cuboid.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/CuboidTests.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Base.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/Derived.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/inheritance/constructors_in_inheritance/DerivedTests.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/Rational.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/Rational.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/rational/RationalTest.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/Student.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/Student.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/oop_c4/student/StudentTest.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp.o
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.cpp
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.h
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/Checkout.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/tdd/supermarket_checkout/CheckoutTest.cpp
+CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/types/reference_types.cpp.o
+ ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-message.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-param-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-test-part.h
+ ../lib/googletest-master/googletest/include/gtest/gtest-typed-test.h
+ ../lib/googletest-master/googletest/include/gtest/gtest.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h
+ ../lib/googletest-master/googletest/include/gtest/gtest_prod.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-filepath.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-param-util.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port-arch.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
+ ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/types/reference_types.cpp
