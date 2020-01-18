@@ -2,6 +2,8 @@
 // Created by Guber on 20.12.19.
 //
 
+
+// Popup structure of the current file for quick navigation: ⌘ F12
 #include "Checkout.h"
 
 Checkout::Checkout() : total(0) {
@@ -46,6 +48,7 @@ int Checkout::calculateTotal() {
     return total;
 }
 
+// ⌥ ⌘ ]/[
 void Checkout::calculateItem(std::string item, int itemCnt) {
     std::map<std::string, Discount>::iterator discountIter;
     discountIter = discounts.find(item);

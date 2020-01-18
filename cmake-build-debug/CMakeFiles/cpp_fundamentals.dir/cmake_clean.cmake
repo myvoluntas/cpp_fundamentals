@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp_fundamentals.dir/main.cpp.o"
   "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o"
   "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o"
+  "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o"
   "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o"
   "CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o"
   "CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o"

@@ -382,6 +382,19 @@ CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_ve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
 
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o: CMakeFiles/cpp_fundamentals.dir/flags.make
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o: ../src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o -c /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp > CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i
+
+CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp -o CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s
+
 # Object files for target cpp_fundamentals
 cpp_fundamentals_OBJECTS = \
 "CMakeFiles/cpp_fundamentals.dir/main.cpp.o" \
@@ -408,7 +421,8 @@ cpp_fundamentals_OBJECTS = \
 "CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/base_class_object_derived_class_object_c14/base_and_derived_class_pointer.cpp.o" \
 "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o" \
 "CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o" \
-"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o"
+"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o" \
+"CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o"
 
 # External object files for target cpp_fundamentals
 cpp_fundamentals_EXTERNAL_OBJECTS =
@@ -438,12 +452,13 @@ cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/oop_c4/ba
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.o
+cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/build.make
 cpp_fundamentals: lib/libgtestd.a
 cpp_fundamentals: lib/libgtest_maind.a
 cpp_fundamentals: lib/libgtestd.a
 cpp_fundamentals: CMakeFiles/cpp_fundamentals.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable cpp_fundamentals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable cpp_fundamentals"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_fundamentals.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

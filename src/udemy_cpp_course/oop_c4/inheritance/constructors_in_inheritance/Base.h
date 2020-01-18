@@ -6,10 +6,11 @@
 #define CPP_FUNDAMENTALS_BASE_H
 
 #include <iostream>
-
+// Type hierarchy: ^ 8H
 class Base {
 public:
     Base();
+
 
     Base(int x);
 };

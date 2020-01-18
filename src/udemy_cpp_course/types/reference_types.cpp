@@ -1,127 +1,1 @@
-//
-// Created by Guber on 17.12.19.
-// Cpp Crash Course 2019
-// Chapter 3: Reference Types
-//
-
-#include <gtest/gtest.h>
-
-TEST(Reference_Types, Addressing_Variables_Dereferencing) {
-
-    /*
-     * In this Test-Block you will learn:
-     *  1. Find the address of an object                                   -> &x1
-     *  2. Assign the result to a pointer variable                         -> ptr1 = &x1
-     *  3. Dereferencing: Perform the opposite operation: address to value -> *int => int *ptr1
-     */
-
-    // Data Variables
-    int x1 = 10;
-    int x2 = 11;
-
-    int *ptr1;       // Pointer Declaration - Address Variable
-    ptr1 = &x1;      // Pointer Initialization: ptr1 stores the address of x1
-
-    int *ptr2 = &x2; // Pointer Declaration + Initialization
-
-    std::cout << " " << std::endl;
-    std::cout << "My Prints: " << std::endl;
-    std::cout << "ptr2 points to x2: int* ptr2 = &x2 " << ptr2;
-
-    // Dereferencing [3]
-    int value_x1 = *ptr1;
-
-    EXPECT_EQ(ptr1, &x1);
-    EXPECT_EQ(*ptr1, x1);
-
-    EXPECT_EQ(value_x1, x1);\
-    //EXPECT_NE(ptr1, x1); // Type-mismatch
-}
-
-TEST(Reference_Types, Mutability_of_AdressVariables) {
-
-    int x = 10;
-    int *ptr = &x;
-    EXPECT_EQ(ptr, &x); // Same address
-
-    // Mutate the value of x through the pointer
-    int mutated_x = ++(*ptr);
-    EXPECT_EQ(mutated_x, 11);
-    EXPECT_EQ(mutated_x, x);
-}
-
-struct ClockOfTheLongNow {
-
-    ClockOfTheLongNow(int year_in) {
-        if (!set_year(year_in)) {
-            year = 2019;
-        }
-    }
-
-    ClockOfTheLongNow() {
-        year = 2019;
-    }
-
-    void add_year() {
-        year++;
-    }
-
-    bool set_year(int new_year) {
-        if (new_year < 2019)
-            return false;
-        year = new_year;
-        return true;
-    }
-
-    int get_year() {
-        return year;
-    }
-
-private:
-    int year;
-};
-
-TEST(Reference_Types, The_MemberOfPointer_Operator) {
-
-    ClockOfTheLongNow clock;
-    ClockOfTheLongNow *clock_ptr = &clock; // Declaration and initialization of a address variable
-
-    // Use the arrow-operator to set the year member of clock to 2020.
-    clock_ptr->set_year(2020);
-    EXPECT_EQ(clock_ptr->get_year(), 2020);
-    EXPECT_EQ(clock_ptr->get_year(), clock.get_year());
-
-}
-
-
-TEST(Reference_Types, Pointers_and_Arrays) {
-    //Todo
-}
-
-void add_year(ClockOfTheLongNow &clock) {
-    clock.set_year(clock.get_year() + 1); // No dereference operator needed.
-}
-
-TEST(Reference_Types, Reference) {
-
-    int x = 10;
-    int &y = x;
-
-    std::cout << "  " << std::endl;
-    std::cout << "printing y: " << y;
-
-    EXPECT_EQ(y, x);                // Compare Values
-    EXPECT_EQ(&y, &x);   // Compare Address
-
-    x++;
-    EXPECT_EQ(x, 11);
-    EXPECT_EQ(y, x);
-
-
-    ClockOfTheLongNow clock;
-    EXPECT_EQ(clock.get_year(), 2019);
-
-    add_year(clock);
-    EXPECT_EQ(clock.get_year(), 2020);
-}
-
+//// Created by Guber on 17.12.19.// Cpp Crash Course 2019// Chapter 3: Reference Types//#include <gtest/gtest.h>TEST(Reference_Types, Addressing_Variables_Dereferencing) {    /*     * In this Test-Block you will learn:     *  1. Find the address of an object                                   -> &x1     *  2. Assign the result to a pointer variable                         -> ptr1 = &x1//     *  3. Dereferencing: Perform the opposite operation: address to value -> *int => int *ptr1     */    // Data Variables    int x2 = 11;    int x1 = 10;    int x;    int *ptr1;       // Pointer Declaration - Address Variable    ptr1 = &x1;      // Pointer Initialization: ptr1 stores the address of x1    int *ptr2 = &x2; // Pointer Declaration + Initialization    std::cout << " " << std::endl;    std::cout << "My Prints: " << std::endl;    std::cout << "ptr2 points to x2: int* ptr2 = &x2 " << ptr2;    // Dereferencing [3]    int value_x1 = *ptr1;    EXPECT_EQ(ptr1, &x1);    EXPECT_EQ(*ptr1, x1);    EXPECT_EQ(value_x1, x1);\    //EXPECT_NE(ptr1, x1); // Type-mismatch}TEST(Reference_Types, Mutability_of_AdressVariables) {    int x = 10;    int *ptr = &x;    EXPECT_EQ(ptr, &x); // Same address    // Mutate the value of x through the pointer    int mutated_x = ++(*ptr);    EXPECT_EQ(mutated_x, 11);    EXPECT_EQ(mutated_x, x);}struct ClockOfTheLongNow {    ClockOfTheLongNow(int year_in) {        if (!set_year(year_in)) {            year = 2019;        }    }    ClockOfTheLongNow() {        year = 2019;    }    void add_year() {        year++;    }    bool set_year(int new_year) {        if (new_year < 2019)            return false;        year = new_year;        return true;    }// Refactor This (shows all available refactorings): ^ T    int GET_YEAR() {        return year;    }private:    int year;};TEST(Reference_Types, The_MemberOfPointer_Operator) {    ClockOfTheLongNow clock;    ClockOfTheLongNow *clock_ptr = &clock; // Declaration and initializ ation of a address variable    // Use the arrow-operator to set the year member of clock to 2020.    clock_ptr->set_year(2020);    EXPECT_EQ(clock_ptr->GET_YEAR(), 2020);    EXPECT_EQ(clock_ptr->GET_YEAR(), clock.GET_YEAR());}TEST(Reference_Types, Pointers_and_Arrays) {    //Todo}void add_year(ClockOfTheLongNow &clock) {    clock.set_year(clock.GET_YEAR() + 1); // No dereference operator needed.}TEST(Reference_Types, Reference) {    int x = 10;    int &y = x;    std::cout << "  " << std::endl;    std::cout << "printing y: " << y;    EXPECT_EQ(y, x);                // Compare Values    EXPECT_EQ(&y, &x);   // Compare Address    x++;    EXPECT_EQ(x, 11);    EXPECT_EQ(y, x);    ClockOfTheLongNow clock;    EXPECT_EQ(clock.GET_YEAR(), 2019);    EXPECT_EQ(clock.GET_YEAR(), 2020);}

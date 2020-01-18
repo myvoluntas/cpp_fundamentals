@@ -24,7 +24,7 @@ int post_inc(int x) {
     return x++;
 }
 
-TEST(ExampeTest, PreIncTest){
+TEST(ExampeTest, PreIncTest) {
     int y;
     int x = 5;
 

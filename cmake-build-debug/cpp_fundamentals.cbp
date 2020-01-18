@@ -354,6 +354,9 @@
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.h">
 			<Option target="cpp_fundamentals"/>
 		</Unit>
+		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp">
+			<Option target="cpp_fundamentals"/>
+		</Unit>
 		<Unit filename="/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp">
 			<Option target="cpp_fundamentals"/>
 		</Unit>

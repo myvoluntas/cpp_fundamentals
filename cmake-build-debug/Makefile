@@ -313,6 +313,33 @@ src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s:
 	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
 .PHONY : src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.c.s
 
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.o: src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.o
+
+# target to build an object file
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o
+
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.i: src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.i
+
+# target to preprocess a source file
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.i
+
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.s: src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s
+
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.s
+
+# target to generate assembly for a file
+src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_fundamentals.dir/build.make CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s
+.PHONY : src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.s
+
 src/algorithms_udemy/c7_array_adt/cpp/array_adt.o: src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o
 
 .PHONY : src/algorithms_udemy/c7_array_adt/cpp/array_adt.o
@@ -934,6 +961,9 @@ help:
 	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.o"
 	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.i"
 	@echo "... src/algorithms_udemy/c7_array_adt/c/array_adt_version_c.s"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/testing_c_array.o"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/testing_c_array.i"
+	@echo "... src/algorithms_udemy/c7_array_adt/c/testing_c_array.s"
 	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.o"
 	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.i"
 	@echo "... src/algorithms_udemy/c7_array_adt/cpp/array_adt.s"

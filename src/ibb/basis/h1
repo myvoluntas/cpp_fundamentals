@@ -1,0 +1,149 @@
+```puml
+@startuml 
+
+enum EvolutionsZustand {
+  Wachstum
+  Ausgereift
+  Sterbend
+}
+
+abstract class Lebewesen {
+    - Luft luft
+    - Wasser wasser
+    - Nahrung nahrung
+    - Sonne sonne
+    - bool kannBewegen
+    - EvolutionsZustand evolutionsZustand
+
+    # Lebewesen(... open...)
+    
+    
+    # void setLuft(Luft luft)
+    # void setWasserr(Wasser wasser)
+    # void setNahrung(Nahrung nahrung)
+    # void setSonne(Sonne sonne)
+    # void setKannBewegen(bool kannBewegen)
+    # void setEvolutionsZustand(EvolutionsZustand evoZustand)
+    
+    # Luft getLuft()
+    # Wasser getWasser()
+    # Nahrung getNahrung()
+    # Sonne getSonne()
+    # bool getKannBewegen()
+    # EvolutionsZustand getEvolutionsZustand()
+}
+
+enum Einstellung {
+    Religioes
+    Wissenschaftlich
+}
+
+class Mensch {
+    - bool hatArbeit
+    - Einstellung einstellung
+    - String ethnie
+    - Array[String] Faehigkeiten
+    - bool developer
+    - bool kannRechnen
+    - bool kannLesen
+    - bool kannSchreiben
+
+    Mensch(bool hatArbeit, Einstellung einstellung, String ethnie, Array[String] Faehigkeiten, bool developer, bool kannRechnen, bool kannLesen, bool kannSchreiben): Lebewesen(...)
+
+}
+
+class Familie {
+    - Array[Mensch] mitglieder
+    - String zugehoerigkeit
+    - Array[String] identifikationselemente
+
+    + Familie(Array[Mensch], String zugehoerigkeit, Array[String] identifikationselemente ): Lebewesen(...)
+    + void setMitglieder()
+    + void setzugehoerigkeit()
+    + void setIdentifikationselemente
+
+    + Array[Mensch] getMitglieder()
+    + String getzugehoerigkeit()
+    + Array[String] getIdentifikationselemente  
+}
+
+class Pflanze {
+    Pflanze(...): Lebewesen(...)
+}
+
+class Insekt {
+    Insekt(...): Lebewesen
+}
+
+class Tier {
+    Tier(...): Lebewesen
+}
+
+
+
+
+
+
+Lebewesen <|-- Pflanze
+Lebewesen <|-- Insekt
+Lebewesen <|-- Tier
+
+Tier <|-- Mensch
+Familie o-- Mensch
+
+@enduml
+```
+
+```puml
+@startuml 
+
+object markus {
+    .
+    .
+    .
+    Vater
+    .
+    .
+}
+
+
+object lena {
+    .
+    .
+    .
+    Mutter
+    .
+    .
+}
+object anton {
+    .
+    .
+    .
+    Sohn1
+    .
+    .
+}
+
+object Peter {
+    ...
+    Sohn2
+    ...
+}
+
+object familieMaier {
+    .
+    name = [markus, lena, anton, paul]
+    .
+    .
+    .
+}
+
+@enduml
+```
+
+Lebenszyklus
+- Konstruktor
+- Destruktor
+- Teilnahme
+    - Datenbank CRUD ops
+    

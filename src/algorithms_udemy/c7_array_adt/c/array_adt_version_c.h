@@ -4,10 +4,15 @@
 
 #ifndef CPP_FUNDAMENTALS_ARRAY_ADT_VERSION_C_H
 #define CPP_FUNDAMENTALS_ARRAY_ADT_VERSION_C_H
-struct Array;
 
-void Display();
+struct Array {
+    int *A;
+    int size;
+    int length;
+};
 
-void Append();
+//void Display();
+
+//void Append();
 
 #endif //CPP_FUNDAMENTALS_ARRAY_ADT_VERSION_C_H

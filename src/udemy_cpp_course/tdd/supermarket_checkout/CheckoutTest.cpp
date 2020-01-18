@@ -20,7 +20,6 @@ TEST_F(CheckoutTests, CanCalculateTotal) {
     int total = checkOut.calculateTotal();
     ASSERT_EQ(1, total);
 }
-
 TEST_F(CheckoutTests, CanGetTotalForMultipleItems) {
     checkOut.addItemPrice("a", 1);
     checkOut.addItemPrice("b", 2);

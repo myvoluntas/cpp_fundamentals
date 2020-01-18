@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title>h1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        .s0 {
+            color: #808080;
+        }
+
+        .s1 {
+            color: #a9b7c6;
+        }
+
+        .s2 {
+            color: #a9b7c6;
+        }
+
+        .s3 {
+            color: #cc7832;
+        }
+    </style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060">
+    <tr>
+        <td>
+            <center>
+                <font face="Arial, Helvetica" color="#000000">
+                    h1</font>
+            </center>
+        </td>
+    </tr>
+</table>
+<pre><span class="s0">```puml</span>
+<span class="s0">@startuml </span>
+
+<span class="s0">enum EvolutionsZustand {</span>
+  <span class="s0">Wachstum</span>
+  <span class="s0">Ausgereift</span>
+  <span class="s0">Sterbend</span>
+<span class="s0">}</span>
+
+<span class="s0">abstract class Lebewesen {</span>
+    <span class="s0">- Luft luft</span>
+    <span class="s0">- Wasser wasser</span>
+    <span class="s0">- Nahrung nahrung</span>
+    <span class="s0">- Sonne sonne</span>
+    <span class="s0">- bool kannBewegen</span>
+    <span class="s0">- EvolutionsZustand evolutionsZustand</span>
+
+    <span class="s0"># Lebewesen(... open...)</span>
+    
+    
+    <span class="s0"># void setLuft(Luft luft)</span>
+    <span class="s0"># void setWasserr(Wasser wasser)</span>
+    <span class="s0"># void setNahrung(Nahrung nahrung)</span>
+    <span class="s0"># void setSonne(Sonne sonne)</span>
+    <span class="s0"># void setKannBewegen(bool kannBewegen)</span>
+    <span class="s0"># void setEvolutionsZustand(EvolutionsZustand evoZustand)</span>
+    
+    <span class="s0"># Luft getLuft()</span>
+    <span class="s0"># Wasser getWasser()</span>
+    <span class="s0"># Nahrung getNahrung()</span>
+    <span class="s0"># Sonne getSonne()</span>
+    <span class="s0"># bool getKannBewegen()</span>
+    <span class="s0"># EvolutionsZustand getEvolutionsZustand()</span>
+<span class="s0">}</span>
+
+<span class="s0">enum Einstellung {</span>
+    <span class="s0">Religioes</span>
+    <span class="s0">Wissenschaftlich</span>
+<span class="s0">}</span>
+
+<span class="s0">class Mensch {</span>
+    <span class="s0">- bool hatArbeit</span>
+    <span class="s0">- Einstellung einstellung</span>
+    <span class="s0">- String ethnie</span>
+    <span class="s0">- Array[String] Faehigkeiten</span>
+    <span class="s0">- bool developer</span>
+    <span class="s0">- bool kannRechnen</span>
+    <span class="s0">- bool kannLesen</span>
+    <span class="s0">- bool kannSchreiben</span>
+
+    <span class="s0">Mensch(bool hatArbeit, Einstellung einstellung, String ethnie, Array[String] Faehigkeiten, bool developer, bool kannRechnen, bool kannLesen, bool kannSchreiben): Lebewesen(...)</span>
+
+<span class="s0">}</span>
+
+<span class="s0">class Familie {</span>
+    <span class="s0">- Array[Mensch] mitglieder</span>
+    <span class="s0">- String zugehoerigkeit</span>
+    <span class="s0">- Array[String] identifikationselemente</span>
+
+    <span class="s0">+ Familie(Array[Mensch], String zugehoerigkeit, Array[String] identifikationselemente ): Lebewesen(...)</span>
+    <span class="s0">+ void setMitglieder()</span>
+    <span class="s0">+ void setzugehoerigkeit()</span>
+    <span class="s0">+ void setIdentifikationselemente</span>
+
+    <span class="s0">+ Array[Mensch] getMitglieder()</span>
+    <span class="s0">+ String getzugehoerigkeit()</span>
+    <span class="s0">+ Array[String] getIdentifikationselemente  </span>
+<span class="s0">}</span>
+
+<span class="s0">class Pflanze {</span>
+    <span class="s0">Pflanze(...): Lebewesen(...)</span>
+<span class="s0">}</span>
+
+<span class="s0">class Insekt {</span>
+    <span class="s0">Insekt(...): Lebewesen</span>
+<span class="s0">}</span>
+
+<span class="s0">class Tier {</span>
+    <span class="s0">Tier(...): Lebewesen</span>
+<span class="s0">}</span>
+
+
+
+
+
+
+<span class="s0">Lebewesen &lt;|-- Pflanze</span>
+<span class="s0">Lebewesen &lt;|-- Insekt</span>
+<span class="s0">Lebewesen &lt;|-- Tier</span>
+
+<span class="s0">Tier &lt;|-- Mensch</span>
+<span class="s0">Familie o-- Mensch</span>
+
+<span class="s0">@enduml</span>
+<span class="s0">```</span>
+
+<span class="s0">```puml</span>
+<span class="s0">@startuml </span>
+
+<span class="s0">object markus {</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">Vater</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+<span class="s0">}</span>
+
+
+<span class="s0">object lena {</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">Mutter</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+<span class="s0">}</span>
+<span class="s0">object anton {</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">Sohn1</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+<span class="s0">}</span>
+
+<span class="s0">object Peter {</span>
+    <span class="s0">...</span>
+    <span class="s0">Sohn2</span>
+    <span class="s0">...</span>
+<span class="s0">}</span>
+
+<span class="s0">object familieMaier {</span>
+    <span class="s0">.</span>
+    <span class="s0">name = [markus, lena, anton, paul]</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+    <span class="s0">.</span>
+<span class="s0">}</span>
+
+<span class="s0">@enduml</span>
+<span class="s0">```</span>
+
+<span class="s2">Lebenszyklus</span>
+<span class="s3">- </span><span class="s2">Konstruktor</span>
+<span class="s3">- </span><span class="s2">Destruktor</span>
+<span class="s3">- </span><span class="s2">Teilnahme</span>
+    <span class="s3">- </span><span class="s2">Datenbank CRUD ops</span>
+    </pre>
+</body>
+</html>

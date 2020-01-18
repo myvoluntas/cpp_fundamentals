@@ -19,6 +19,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/h.gbr/Documents/clion/cpp_fundamentals/main.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/main.cpp.o"
   "/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c5_recursion/recursive_functions.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c5_recursion/recursive_functions.cpp.o"
+  "/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/c/testing_c_array.cpp.o"
   "/Users/h.gbr/Documents/clion/cpp_fundamentals/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/src/algorithms_udemy/c7_array_adt/cpp/array_adt.cpp.o"
   "/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/parameter_passing_methods.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/parameter_passing_methods.cpp.o"
   "/Users/h.gbr/Documents/clion/cpp_fundamentals/src/udemy_cpp_course/functions/static_variables.cpp" "/Users/h.gbr/Documents/clion/cpp_fundamentals/cmake-build-debug/CMakeFiles/cpp_fundamentals.dir/src/udemy_cpp_course/functions/static_variables.cpp.o"

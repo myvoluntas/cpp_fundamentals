@@ -60,6 +60,7 @@ Complex operator+(Complex c1, Complex c2) {
     return tmp;
 }
 
+
 //std::ostream& operator<<(std::ostream& o, Complex& c)
 void operator<<(std::ostream &o, Complex &c) {
     o << c.get_real() << " +i" << c.get_img();
@@ -75,6 +76,7 @@ TEST(Operator_Overloading, Testing_Members) {
 
     c2.set_img(5);
     EXPECT_EQ(c2.get_real(), 6);
+
     EXPECT_EQ(c2.get_img(), 5);
 }
 

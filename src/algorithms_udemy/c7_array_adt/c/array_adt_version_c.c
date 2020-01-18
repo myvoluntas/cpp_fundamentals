@@ -4,8 +4,4 @@
 
 #include "array_adt_version_c.h"
 
-struct Array {
-    int *A;
-    int size;
-    int length;
-};
+
